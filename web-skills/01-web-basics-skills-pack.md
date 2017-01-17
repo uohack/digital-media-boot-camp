@@ -7,7 +7,6 @@ Welcome to the Web Basics Skills Pack. This document contains the fundamental id
 1. [How does the internet work?](#how-does-the-internet-work)
 1. [How do HTML, CSS and JS work together?](#how-do-html-css-and-js-work-together)
 1. [Website example](#website-example)
-1. [Additional notes and links](#additional-notes-and-links)
 
 # How does the internet work?
 
