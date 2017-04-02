@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>UOHack - Github basics</title>
+		<meta name="description" content="Learn the basics of Github.">
+		<meta name="author" content="Rob Denton">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/simple.css" id="theme">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section>
+					<h1>Github basics</h1>
+					<h3>UOHack - Rob Denton</h3>
+					<h4>Slides: <a href="http://uohack.com/github-basics/">uohack.com/github-basics</a></h4>
+				</section>
+				<section>
+					<h2>Github</h2>
+					<aside class="notes">
+						- Built off of software named Git<br>
+					</aside>
+				</section>
+				<section>
+					<h2>Git</h2>
+					<aside class="notes">
+						- Version control software to detect changes in text documents<br>
+					</aside>
+				</section>
+				<section>
+					<h2>Version control</h2>
+					<aside class="notes">
+						- Way to save code, view history<br>
+						- Similar to viewing changes in Google Docs<br>
+						- Github, Bitbucket are examples of cloud version control tools
+					</aside>
+				</section>
+				<section>
+					<h2>Git/Github relationship</h2>
+					<aside class="notes">
+						- Save Word doc/Put in Dropbox + extra collaboration features
+					</aside>
+				</section>
+				<section>
+					<h2>Github users</h2>
+					<aside class="notes">
+						- Can be part of organizations<br>
+						- More importantly, they own repositories
+					</aside>
+				</section>
+				<section>
+					<h2>Repositories</h2>
+					<aside class="notes">
+						- Store code<br>
+						- Have commit histories<br>
+						- Also have features like issues, Wikis, branches<br>
+					</aside>
+				</section>
+				<section>
+					<h2>Commits</h2>
+					<aside class="notes">
+						- List of all the times you "saved"<br>
+						- Way to track your progress
+					</aside>
+				</section>
+				<section>
+					<h2>Other repository actions</h2>
+					<aside class="notes">
+						- Of course you can commit to a repository<br>
+						- Also push/pull, clone, fork, etc.
+					</aside>
+				</section>
+				<section>
+					<h2>Basic workflow</h2>
+					<ul>
+						<li>Create repository for new project on Github.com and clone empty repo to your computer (this should just be an empty folder)</li>
+						<li>Code out part of project in that folder on your machine</li>
+						<li>Commit and push changes to Github using Github Desktop application (or command line if you're into that sort of thing)</li>
+						<li>Code more stuff, commit & push new changes, repeat</li>
+					</ul>
+				</section>
+				<section>
+					<h3>More: <a href="https://github.com/uohack/github-basics/">github.com/uohack/github-basics</a></h3>
+				</section>
+
+			</div><!-- /.slides -->
+		</div><!-- /.reveal -->
+
+		<script src="js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+		<script>
+
+			// Full list of configuration options available at:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: false,
+				progress: true,
+				history: true,
+				center: true,
+
+				transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+				// Optional reveal.js plugins
+				dependencies: [
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/notes/notes.js', async: true }
+				]
+			});
+
+		</script>
+	</body>
+</html>
