@@ -13,9 +13,16 @@ While these documents will be available online, we also offer office hours for s
 # Available tutorials
 
 * Web skills
-  * [Basic skills pack](https://github.com/uohack/dmbc/blob/master/web-skills/01-web-basics-skills-pack.md)
+  * [Basic skills pack](https://github.com/uohack/digital-media-boot-camp/blob/master/web-skills/01-web-basics-skills-pack.md)
+* Programming
+  * [Basic skills pack](https://github.com/uohack/digital-media-boot-camp/blob/master/programming/01-programming-basics.md)
+* Github
+  * [Introduction and example](https://github.com/uohack/digital-media-boot-camp/tree/master/github)
+* data
+  * [Convert CSV to JSON script](https://github.com/uohack/digital-media-boot-camp/tree/master/data/csvjson)
 * Miscellaneous
-  * [Project management](https://github.com/uohack/dmbc/blob/master/misc-skills/project-management.md)
+  * [Project management](https://github.com/uohack/digital-media-boot-camp/blob/master/misc-skills/project-management.md)
+  
 
 # More information
 
