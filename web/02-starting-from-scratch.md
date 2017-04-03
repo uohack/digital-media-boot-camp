@@ -364,3 +364,5 @@ Your final file might look something like this:
 ```
 
 I know this file seems simple, but it contains all of the building blocks to a more complicated website. And, FWIW, you could put this file up on a server and it would act like a real, full-blown, regular website.
+
+To prove that, I've put it up [here](http://uohack.com/digital-media-boot-camp/web/examples/02-starting-from-scratch.html).
