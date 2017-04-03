@@ -117,8 +117,6 @@ There are a number of ways to target styles to HTML elements, but the easiest wa
 <details>
 	<summary><small>Feeling a little lost? Click here to see how your HTML document should look right now.</small></summary>
 
-	```html
-
 	<html>
 		<head>
 			<!-- This is the head tag, meta stuff goes in here. -->
@@ -151,8 +149,6 @@ There are a number of ways to target styles to HTML elements, but the easiest wa
 			<img src="https://c1.staticflickr.com/5/4004/4405653593_3abf2f3ddc_b.jpg">
 		</body>
 	</html>
-
-	```
 
 </details>
 
