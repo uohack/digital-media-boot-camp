@@ -13,16 +13,17 @@ While these documents will be available online, we also offer office hours for s
 # Available tutorials
 
 * Web skills
-  * [Basic skills pack](https://github.com/uohack/digital-media-boot-camp/blob/master/web-skills/01-web-basics-skills-pack.md)
+  * [Basic skills pack](https://github.com/uohack/digital-media-boot-camp/blob/gh-pages/web/01-web-basics-skills-pack.md)
+  * [Building your first web page from scratch](https://github.com/uohack/digital-media-boot-camp/blob/gh-pages/web/02-starting-from-scratch.md)
 * Programming
-  * [Basic skills pack](https://github.com/uohack/digital-media-boot-camp/blob/master/programming/01-programming-basics.md)
+  * [Basic skills pack](https://github.com/uohack/digital-media-boot-camp/blob/gh-pages/programming/01-programming-basics.md)
 * Github
-  * [Introduction and example](https://github.com/uohack/digital-media-boot-camp/tree/master/github)
+  * [Introduction and example](https://github.com/uohack/digital-media-boot-camp/tree/gh-pages/github)
 * data
-  * [Convert CSV to JSON script](https://github.com/uohack/digital-media-boot-camp/tree/master/data/csvjson)
+  * [Convert CSV to JSON script](https://github.com/uohack/digital-media-boot-camp/tree/gh-pages/data/csvjson)
 * Miscellaneous
-  * [Project management](https://github.com/uohack/digital-media-boot-camp/blob/master/misc-skills/project-management.md)
-  
+  * [Project management](https://github.com/uohack/digital-media-boot-camp/blob/gh-pages/misc-skills/project-management.md)
+
 
 # More information
 
