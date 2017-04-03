@@ -1,0 +1,59 @@
+<html>
+	<head>
+		<!-- This is the head tag, meta stuff goes in here. -->
+		<!-- btw, this is a comment tag -->
+			<style>
+			html {
+				font-family: Arial, sans-serif;
+			}
+			h1 {
+				font-size: 48px;
+				font-weight: bold;
+				color: #ccc;
+				text-transform: uppercase;
+			}
+			p {
+				font-family: Georgia, serif;
+			}
+			img {
+				width: 400px;
+				margin: 0 auto;
+			}
+	</style>
+	</head>
+	<body>
+		<!-- this is the body tag, all of your content goes in here -->
+		<h1>Hello, world</h1>
+		<h3>This is a sub-headline</h3>
+		<p>This is one paragraph.</p>
+		<p>This is another.</p>
+		<img src="https://c1.staticflickr.com/5/4004/4405653593_3abf2f3ddc_b.jpg">
+    <!-- Photo: Rob Kleine via Flickr https://www.flickr.com/photos/rkleine/4405653593 -->
+    <!-- Used under CC license and for educational purposes only -->
+		<script>
+			// Reusable function to get random colors
+			// Courtesy: http://stackoverflow.com/a/1484514
+			function getRandomColor() {
+				var letters = '0123456789ABCDEF';
+				var color = '#';
+				for (var i = 0; i < 6; i++ ) {
+					color += letters[Math.floor(Math.random() * 16)];
+				}
+				return color;
+			}
+
+			// When you click on the page, let's change the text color
+			document.onclick = function(){
+				//console.log("hello");
+				// Get the container div
+				var page = document.documentElement;
+				// Set variable to new color on each click
+				var newColor = getRandomColor();
+				// Print out that new color to the console
+				console.log(newColor);
+				// Set the CSS color of everything in #container to the new color
+				page.style.background = newColor;
+			};
+		</script>
+	</body>
+</html>
